@@ -1,0 +1,16 @@
+title: Insha Arshad | Data Scientist
+# email: insha.arshad17@gmail.com
+description: About Me
+baseurl: "" 
+url: "" 
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Social Links
+linkedin_username: insha-arshad
+github_username: Insha-A
+# gscholar_username: 
