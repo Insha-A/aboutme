@@ -1,0 +1,37 @@
+- category: Languages & Core
+  icon: fa-code
+  items:
+    - Python
+    - R
+    - C/C++
+    - Dart (FlutterFlow)
+    - SQL
+    - Linux
+
+- category: Data Science & AI
+  icon: fa-brain
+  items:
+    - Machine Learning
+    - Time Series Forecasting
+    - NLP
+    - Generative AI
+    - LLM Fine-Tuning
+    - Statistical Modeling
+
+- category: Data Engineering & Tools
+  icon: fa-database
+  items:
+    - Apache NiFi
+    - Docker
+    - MySQL
+    - Hive
+    - Hadoop
+    - MLflow
+
+- category: Project & Version Control
+  icon: fa-diagram-project
+  items:
+    - Git & GitHub
+    - Azure DevOps
+    - JIRA
+    - Ethical AI Awareness
