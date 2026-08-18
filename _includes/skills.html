@@ -1,0 +1,21 @@
+<section id="skills">
+  <div class="section-header">
+    <h2 class="section-title">Technical Expertise</h2>
+    <p class="section-subtitle">Technologies and toolsets applied across production and research</p>
+  </div>
+
+  <div class="grid-2">
+    {% for group in site.data.skills %}
+    <div class="card">
+      <div class="skills-category">
+        <h4><i class="fa-solid {{ group.icon }}"></i> {{ group.category }}</h4>
+        <div class="tags">
+          {% for item in group.items %}
+          <span class="tag">{{ item }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
