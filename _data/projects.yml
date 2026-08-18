@@ -1,1 +1,28 @@
+- title: Real-Time Flight Delay Prediction
+  desc: End-to-end streaming data pipeline handling real-time aircraft and airline telemetry to forecast flight delays.
+  tags:
+    - Apache NiFi
+    - Docker
+    - MySQL
 
+- title: Big Data Distributed Storage Architecture
+  desc: Scalable distributed pipeline for high-throughput queries and visualization across cluster nodes.
+  tags:
+    - Hive
+    - Hadoop
+    - Plotly
+    - Linux
+
+- title: Bidirectional Sketch-to-Face Translation
+  desc: Deep learning generative architecture using GANs to translate hand-drawn forensic sketches to realistic faces.
+  tags:
+    - TensorFlow
+    - PyTorch
+    - GANs
+
+- title: Personality & Mood Book Recommender
+  desc: NLP-based recommendation system tailoring literature suggestions to real-time psychological metrics.
+  tags:
+    - Python
+    - Scikit-Learn
+    - NLP
