@@ -1,0 +1,20 @@
+<section id="projects">
+  <div class="section-header">
+    <h2 class="section-title">Featured Projects</h2>
+    <p class="section-subtitle">Data pipelines, forecasting frameworks, and intelligent algorithms</p>
+  </div>
+
+  <div class="grid-2">
+    {% for proj in site.data.projects %}
+    <div class="card">
+      <h3 class="card-title">{{ proj.title }}</h3>
+      <p class="card-desc">{{ proj.desc }}</p>
+      <div class="tags">
+        {% for tag in proj.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
