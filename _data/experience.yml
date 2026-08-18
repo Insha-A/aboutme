@@ -1,0 +1,62 @@
+- role: Software & Analysis Specialist
+  company: Centre for Energy Equality (UK)
+  period: Apr 2024 – Dec 2025
+  location: Edinburgh, UK (Remote)
+  bullets:
+    - Co-architected & developed an energy trading platform involving forecasting and predictive analysis of energy demand using BMS data, ML models, and statistical techniques.
+    - Leveraged technical expertise to enhance Fairer Warmth App features and Net Zero Terrace Street implementation.
+    - Led project trials in the Fife region focusing on SME energy efficiency and managed marketing initiatives.
+  tags:
+    - Python
+    - Energy Forecasting
+    - Machine Learning
+    - Product Development
+
+- role: Data Science Research Intern
+  company: Lancaster University
+  period: Jun 2023 – Aug 2023
+  location: Lancaster, UK
+  bullets:
+    - Paid summer placement contributing to EPSRC-funded research focused on reducing end-use energy demand in commercial settings.
+    - Developed time series forecasting models (Prophet) to predict building carbon emissions, achieving a peak accuracy of 91%.
+  tags:
+    - Time Series
+    - Prophet
+    - Carbon Analytics
+
+- role: Teaching Assistant
+  company: Lancaster University
+  period: Nov 2022 – Jun 2023
+  location: Lancaster, UK
+  bullets:
+    - Provided guidance and support to over 70 students across lectures and lab sessions.
+    - Covered MySQL, Database Management Systems (DBMS), and Introduction to Programming.
+  tags:
+    - MySQL
+    - DBMS
+    - Mentorship
+
+- role: Research Project Lead
+  company: UKCEH & Lancaster University
+  period: Nov 2022 – Feb 2023
+  location: Lancaster, UK
+  bullets:
+    - Led a team of 6 researchers and achieved an 83% overall project evaluation score.
+    - Implemented statistical correlation analysis and time series models to assess climate impact on UK moth species survival (87% accuracy).
+  tags:
+    - Statistical Analysis
+    - R
+    - Team Leadership
+
+- role: Member of Technical Staff (Software Developer)
+  company: NEC Corporation
+  period: Jan 2019 – Sep 2022
+  location: India
+  bullets:
+    - Developed production-level features in C/C++ for IP Phones utilizing SIP/TCP networking protocols.
+    - Regularly conducted technical training sessions and code optimizations.
+  tags:
+    - C++
+    - SIP/TCP
+    - Networking
+    - Linux
