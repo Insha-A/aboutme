@@ -20,9 +20,9 @@
     - PyTorch
     - GANs
 
-- title: Personality & Mood Book Recommender
-  desc: NLP-based recommendation system tailoring literature suggestions to real-time psychological metrics.
-  tags:
-    - Python
-    - Scikit-Learn
-    - NLP
+# - title: Personality & Mood Book Recommender
+#   desc: NLP-based recommendation system tailoring literature suggestions to real-time psychological metrics.
+#   tags:
+#     - Python
+#     - Scikit-Learn
+#     - NLP
