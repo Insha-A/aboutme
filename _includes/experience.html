@@ -1,27 +1,42 @@
 <section id="experience">
   <div class="section-header">
-    <h2 class="section-title">Work Experience</h2>
-    <p class="section-subtitle">Career progression in data science, research, and software systems</p>
+    <h2 class="section-title">Experience</h2>
+    <div class="title-underline"></div>
   </div>
 
-  <div class="timeline">
-    {% for job in site.data.experience %}
-    <div class="timeline-item">
-      <div class="job-header">
-        <h3 class="job-title">{{ job.role }}</h3>
-        <span class="company-meta"><i class="fa-regular fa-building"></i> {{ job.company }} • {{ job.period }}</span>
-      </div>
-      <ul class="timeline-bullets">
-        {% for bullet in job.bullets %}
-        <li>{{ bullet }}</li>
-        {% endfor %}
-      </ul>
-      <div class="tags">
-        {% for tag in job.tags %}
-        <span class="tag">{{ tag }}</span>
+  <div class="exp-columns">
+    <!-- Education Column -->
+    <div class="exp-column">
+      <h3 class="column-subtitle">EDUCATION</h3>
+      <div class="timeline">
+        {% for edu in site.data.education %}
+        <div class="timeline-item">
+          <span class="timeline-date">{{ edu.period }}</span>
+          <h4 class="timeline-role">{{ edu.degree }}</h4>
+          <span class="timeline-org">{{ edu.institution }}</span>
+          {% if edu.desc %}
+          <p class="timeline-desc">{{ edu.desc }}</p>
+          {% endif %}
+        </div>
         {% endfor %}
       </div>
     </div>
-    {% endfor %}
+
+    <!-- Work Column -->
+    <div class="exp-column">
+      <h3 class="column-subtitle">WORK</h3>
+      <div class="timeline">
+        {% for job in site.data.experience %}
+        <div class="timeline-item">
+          <span class="timeline-date">{{ job.period }}</span>
+          <h4 class="timeline-role">{{ job.role }}</h4>
+          <span class="timeline-org">{{ job.company }}</span>
+          {% if job.bullets %}
+          <p class="timeline-desc">{{ job.bullets | first }}</p>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
   </div>
 </section>
